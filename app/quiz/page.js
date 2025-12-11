@@ -34,6 +34,9 @@ export default function QuizPage() {
             <span className="text-2xl font-semibold mt-4">
               Selamat Anda Mendapatkan Hadiah Rp.1.000.000
             </span>
+            <span className="text-2xl font-semibold mt-4">
+              Rp.1.000.000
+            </span>
             <span>Kirim "Saya Menang" Ke Nomor Berikut: 083186369422</span>
           </div>
         ) : (
