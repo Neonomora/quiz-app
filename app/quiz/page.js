@@ -31,13 +31,13 @@ export default function QuizPage() {
         </p>
         {score === questions.length ? (
           <div className="flex flex-col items-center">
-            <span className="text-2xl font-semibold mt-4">
-              Selamat Anda Mendapatkan Hadiah Rp.1.000.000
+            <span className="text-xl font-semibold mt-4 text-center">
+              Selamat Anda Mendapatkan Hadiah
             </span>
-            <span className="text-2xl font-semibold mt-4">
+            <span className="text-2xl font-semibold text-center">
               Rp.1.000.000
             </span>
-            <span>Kirim "Saya Menang" Ke Nomor Berikut: 083186369422</span>
+            <span className="text-center mt-4">Kirim "Saya Menang" Ke Nomor Berikut 083186369422</span>
           </div>
         ) : (
           <div className="flex flex-col items-center mt-4">
