@@ -42,7 +42,7 @@ export default function QuizPage() {
         ) : (
           <div className="flex flex-col items-center mt-4">
             <span>Maaf Jawaban Belum Tepat</span>
-            <Link href="/" className="px-2 rounded text-black bg-white mt-4">
+            <Link href="/" className="px-4 py-1 rounded-xl text-black bg-white mt-4">
               Ulangi Lagi
             </Link>
           </div>
